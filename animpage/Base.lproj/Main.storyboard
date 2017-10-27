@@ -61,10 +61,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLO-22-OJN">
-                                <rect key="frame" x="33" y="-555" width="309" height="566.5"/>
+                                <rect key="frame" x="16" y="-555" width="343" height="566.5"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lA4-D3-0BA">
-                                        <rect key="frame" x="8" y="8" width="293" height="550.5"/>
+                                        <rect key="frame" x="8" y="8" width="327" height="550.5"/>
                                         <connections>
                                             <segue destination="eMN-s7-aUp" kind="embed" id="cfW-Xb-3l0"/>
                                         </connections>
@@ -92,7 +92,7 @@
                             <constraint firstItem="hLO-22-OJN" firstAttribute="height" secondItem="qOF-cE-emb" secondAttribute="height" id="Uo2-Kn-MDf"/>
                             <constraint firstItem="qOF-cE-emb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="X9W-Om-XRW"/>
                             <constraint firstItem="3b7-nZ-GXn" firstAttribute="width" secondItem="qOF-cE-emb" secondAttribute="width" multiplier="0.9:1" id="aqN-QO-N7Z"/>
-                            <constraint firstItem="hLO-22-OJN" firstAttribute="width" secondItem="qOF-cE-emb" secondAttribute="width" multiplier="0.9:1" id="rlV-H3-aD0"/>
+                            <constraint firstItem="hLO-22-OJN" firstAttribute="width" secondItem="qOF-cE-emb" secondAttribute="width" id="rlV-H3-aD0"/>
                             <constraint firstItem="qOF-cE-emb" firstAttribute="top" secondItem="hLO-22-OJN" secondAttribute="bottom" constant="48" id="ryC-fv-hL4"/>
                             <constraint firstItem="qOF-cE-emb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="wPA-9j-asP"/>
                             <constraint firstItem="3b7-nZ-GXn" firstAttribute="height" secondItem="qOF-cE-emb" secondAttribute="height" multiplier="0.9:1" id="xIX-Kl-wso"/>
@@ -110,7 +110,7 @@
             <objects>
                 <viewController id="eMN-s7-aUp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M9n-S2-zZV">
-                        <rect key="frame" x="0.0" y="0.0" width="293" height="550.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="327" height="550.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="C1n-QE-TiD"/>
